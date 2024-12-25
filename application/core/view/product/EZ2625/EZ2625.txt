@@ -1,0 +1,31 @@
+Description
+EZ2625 series is NB-IoT module compliant with 3GPP R13/R14 of CAT-NB1/NB2 standard and e-SIM designed for IoT/M2M application. It is the smallest LTE CAT-NB1/NB/2 module in the market and meet the essential LTE
+
+Feature
+General
+LGA 52-PIN
+Dimension 14.0mm x 14.0mm x 1.85mm Weight < 1g
+Voltage range: 3.3 V to 3.6 V
+Band B1 / B3 / B5 / B8 / B20 / B28
+
+Application Interface
+UART:Main port UART1
+Baud rate:115200 bps (configurable by ATCMD)
+Data Length: 8 bits
+Parity Check: None
+Stop bit: 1 bit
+Flow Control : support RTS/CTS
+UART:Debug port UART0
+USIM:
+Support external 3V/1.8V USIM Card
+USB:
+USB1.1 interface
+Capture debug log. Logging channel can be selected by ATCMD
+More:
+Seeing at EZ2625 Datasheet
+
+RF Transceiver
+Single-Tone(NB1) Max.DL:26kbps / UL:16kbps Multi-Tone(NB1) Max.DL:26kbps / UL:62kbps
+Receive Sensitivity: −131dBm ± 1dB (B3/5/8/20/28)
+TX power support Maxium 23dBm ± 2dB and Minium <-40dBm
+RSSI(CSQ) Output

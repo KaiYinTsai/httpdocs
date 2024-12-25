@@ -1,0 +1,405 @@
+body {
+    background-color: #000000;
+}
+
+.spinner-border {
+    margin-top: 50vh;
+    width: 10rem;
+    height: 10rem;
+    border-width: 1rem;
+    margin-bottom: 50vh;
+}
+
+/***< banner >***************************/
+#banner {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.carousel-inner {
+
+    background: radial-gradient(center, ellipse cover, #56789A 0%, #012345 70%);
+    background: -moz-radial-gradient(center, ellipse cover, #56789A 0%, #012345 70%);
+    background: -webkit-radial-gradient(center, ellipse cover, #56789A 0%, #012345 70%);
+    background: -o-radial-gradient(center, ellipse cover, #56789A 0%, #002345 70%);
+}
+
+#banner_img {
+
+    max-height: 85vh !important;
+}
+
+/***< menu >***************************/
+.menu {
+    background-color: #fff;
+}
+
+#menu {
+    background-color: #fff;
+    position: sticky !important;
+    top: 0em;
+    z-index: 99;
+    opacity: 0.7;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+#menu:hover {
+    opacity: 1;
+}
+
+#companyLogo {
+    width: 100%;
+    height: 100%;
+}
+
+#navbarSupportedContent a {
+    font-family: "Zen Dots", cursive;
+    font-size: 1rem;
+}
+
+.nav-link {
+    transition: .5s;
+    -webkit-transition: .5s;
+}
+
+.nav-link:hover {
+    /* border-bottom: 0.5vh rgb(00, 00, 160) solid;
+    color: rgb(00, 00, 160); */
+    background-color: #dddddd;
+    color: #fff;
+}
+
+/* .nav-link:active {
+    border-bottom: 0.5vh rgb(00, 00, 160) solid;
+    color: aquamarine;
+} */
+/* 自動展開 */
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/***< web font >***************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Nunito", sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+p {
+    font-family: "Nunito", sans-serif;
+}
+
+.aboutfont {
+    font-size: 2em;
+}
+
+/***< footer >***************************/
+
+#footer {}
+.footerfont {
+    color:#fff;
+}
+
+/***< main >***************************/
+
+#mainpage {
+
+    padding-top: 10vh;
+    padding-bottom: 50vh;
+    /* background-color: rgba(255,255,255,.); */
+    backdrop-filter: blur(10px);
+    transition: 1.5s;
+    -webkit-transition: 1.5s;
+}
+#mainpage:hover{
+    background-color: rgba(255, 255, 255, .45);
+    backdrop-filter: blur(20px);
+}
+
+#mainbg {
+
+    background: url("../../public/images/index_05.png") center;
+    padding:1% 1% 1% 1%;
+}
+
+#aboutuspage h2 {
+    color: #000;
+}
+
+/***< contactus >***************************/
+.contactfont {
+    color:#fff;
+}
+
+#contactus {
+    padding-top: 20vh;
+    /* background-color: #fff; */
+    background: radial-gradient(center, ellipse cover, #56789A 0%, #012345 70%);
+    background: -moz-radial-gradient(center, ellipse cover, #56789A 0%, #012345 70%);
+    background: -webkit-radial-gradient(center, ellipse cover, #56789A 0%, #012345 70%);
+    background: -o-radial-gradient(center, ellipse cover, #56789A 0%, #002345 70%);
+}
+
+#mainword {
+
+    height: 10vh;
+}
+
+#twmap {
+    background: url("../../public/images/twmap-1.jpg") no-repeat 28px center;
+    height: 450px;
+    /*PIC for Tw map*/
+}
+
+#gmap {
+    width: 90vh;
+    height: 40vh;
+    border: 0;
+}
+
+.input-group {
+    margin-bottom: 1.5vh;
+}
+
+.input-group .input-group-text {
+    width: 200px;
+}
+
+.subtitle {
+    text-align: center;
+    width: 100;
+    background-color: rgb(233, 236, 239);
+    border-color: yellow;
+    border-width: 3px;
+    margin-bottom: 2vh;
+}
+
+.iframecontainer {
+    position: relative;
+    padding-bottom: 75%;
+    /* 此為地圖長寬比 */
+    height: 0;
+    overflow: hidden;
+}
+
+.iframecontainer iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#top {
+    outline: none;
+    position: fixed !important;
+    right: -1.5rem;
+    bottom: 5vh;
+    border: 0px;
+    width: 6rem;
+    border-radius: 4rem;
+    font-size: 1.5rem;
+    height: 3.5rem;
+    background-color: #d0e8ff;
+    transition: .5s;
+    -webkit-transition: .5s;
+}
+
+#top:hover {
+    width: 10rem;
+    border-color: lightblue;
+    background-color: #0d6efd;
+}
+
+#top:active {
+    background-color: #0d9eff;
+}
+
+#top p {
+    padding-top: 0.7vh;
+    color: #ffffff;
+}
+
+.smtp_btn {
+    padding-left: 20vh;
+    padding-right: 20vh;
+    background-color: #d0e8ff;
+    border:0px;
+}
+
+#offical-line {
+
+    border:0px;
+    width:8em;
+}
+
+#error_area {
+    color: #ff0000;
+}
+
+/**doting animation for sending mail**/
+.dotting {
+    display: inline-block;
+    min-width: 8px;
+    min-height: 8px;
+    box-shadow: 10px 0 currentColor, 20px 0 currentColor, 30px 0 currentColor;
+    /* for IE9+, ..., 3個點 */
+    animation: dot 3s infinite step-start both;
+    /* for IE10+, ... */
+}
+
+:root .dotting {
+    margin-right: 10px;
+}
+
+/* for IE9+,FF,CH,OP,SF 占據空間*/
+
+@keyframes dot {
+    25% {
+        box-shadow: none;
+    }
+
+    /* 0個點 */
+    50% {
+        box-shadow: 10px 0 currentColor;
+    }
+
+    /* 1個點 */
+    75% {
+        box-shadow: 10px 0 currentColor, 20px 0 currentColor;
+        /* 2個點 */
+    }
+}
+
+/*****************product************/
+
+.card_content {
+    margin: 0 auto;
+    float: none;
+}
+
+.card {
+    border-width: 0.2rem;
+    margin-top: 1em;
+
+    weight: 30rem;
+    height: 60vh;
+    text-align: center;
+    overflow-y: scroll;
+
+    background-color: rgba(255, 255, 255, .50);
+    backdrop-filter: blur(20px);
+}
+
+.card::-webkit-scrollbar {
+    display: none;
+}
+
+.div_img {
+    display: inline-block;
+    width: 34vh;
+    height: 30vh;
+    overflow: hidden;
+    border: 0px solid blue;
+    position: relative;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 50%;
+    top: 50%;
+    object-fit: contain;
+    background-size: cover;
+    left: 50%;
+}
+
+.card .btn-primary {
+    width: 5em;
+}
+
+.product_IMG {
+    width: 30vh;
+    border-width: 0em;
+}
+
+#imgframe {
+    margin-left: 1vh;
+    margin-bottom: 5vh;
+}
+
+h3 .subtitle {
+    font-family: "Zen Dots", cursive;
+}
+
+#productmain ol {
+    list-style-type: disc;
+}
+
+.card-title {
+    font-weight: bold;
+    background-color: rgb(233, 236, 239);
+}
+
+.function_Block {
+    margin-bottom: 3vh;
+}
+
+/********actual case*******************************/
+#detailtitle h3 {
+    margin-left: 11em;
+}
+
+.card-body img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.actualcasebtn {
+    background-color: rgb(21, 170, 216);
+    width: 80%;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.actualsubtitle {
+
+
+}
+
+/******** Agency Brand*************************************/
+.card {
+    margin-bottom: 1em;
+}
+
+/********Antenna page*************************************/
+
+#menu,
+#banner,
+#mainpage,
+#contactus {}
+
+/************* provider*********************************** */
+.btnvayyar {
+    width: 100%!important;
+}
+/************Misc*******************************************/
+img {
+    max-width: 100%;
+}
+
+a .hide_btn {
+  color:#000;
+}
